@@ -18,6 +18,7 @@ var books = []book{
 	{ID: "1", Title: "In Search of Lost Time", Author: "Marcel proust", Quantity: 2},
 	{ID: "2", Title: "The Great Gatsby", Author: "F. Scott Fitzgeraid", Quantity: 5},
 	{ID: "3", Title: "War and Peace", Author: "Leo Tolstoy", Quantity: 6},
+	{ID: "4", Title: "hamlet", Author: "william sekespeare", Quantity: 7},
 }
 
 func getBooks(c *gin.Context) {
